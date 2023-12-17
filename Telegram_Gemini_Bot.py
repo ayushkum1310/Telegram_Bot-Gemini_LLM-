@@ -17,6 +17,8 @@ dispatcher = updater.dispatcher
 
 model = genai.GenerativeModel(model_name='gemini-pro', generation_config=genai.types.GenerationConfig(max_output_tokens=250, temperature=0.4))
 chat = model.start_chat()
+
+#Customizing the chat bot accouring to our need
 response = chat.send_message('''Your name is Brownie. You are a chat bot designed to help people.''')
 response = chat.send_message('''Keep in mind your answers should be to the point and short''')
 response = chat.send_message('''Keep the answer short and simple easily understand by people and to the point''')
