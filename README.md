@@ -1,3 +1,5 @@
+# Due to update in module not working anymore but you can follow the flow structure 
+
 HI this is a telegram bot which uses the Large Language Model to answer your question
 
 In order to run the code you have to update your api key in .env folder 
