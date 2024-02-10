@@ -15,7 +15,7 @@ Token = os.environ.get('TELEGRAM_TOKEN')
 updater = telegram.ext.Updater(Token,use_context=True)
 dispatcher = updater.dispatcher
 
-model = genai.GenerativeModel(model_name='gemini-pro', generation_config=genai.types.GenerationConfig(max_output_tokens=250, temperature=0.4))
+model = genai.GenerativeModel(model_name='gemini-pro', generation_config=genai.types.GenerationConfig( temperature=0.4))
 chat = model.start_chat()
 
 #Customizing the chat bot accouring to our need
