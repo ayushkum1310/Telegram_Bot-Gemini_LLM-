@@ -1,4 +1,8 @@
-telegram
-load_env
 
-### wait for all,will not work now
+
+telegram.ext
+dotenv
+google.genrativeai
+logging
+queue
+
